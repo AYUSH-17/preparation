@@ -55,6 +55,8 @@ public class FetchPairOfSum {
     public static void main(String[] args) {
         FetchPairOfSum ob   = new FetchPairOfSum();
         int[] a = {1,4,4,5,5,5,6,6,1,1};
+        int[] a1 = {1,1,1,4,4,5,5,5,6,6};
+
         int k = 11;
         System.out.println(ob.fetchPairOfSum(a,k));
 
@@ -87,5 +89,8 @@ public class FetchPairOfSum {
         int k5 = 5;
         System.out.println("Test case 5: " + ob.fetchPairOfSum(arr5, k5)); // Output should be 0
 
+        int[] arr6 = {1,2,2,1};
+        int k6 = 6;
+        System.out.println("Test case 6: " + ob.fetchPairOfSum(arr6, k6)); // Output should be 0
     }
 }
