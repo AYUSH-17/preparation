@@ -1,5 +1,7 @@
 package org.example.coding;
 
+import java.util.Arrays;
+
 public class ContainerWithMostWater {
     int fetchArea(int[] arr){
         if(arr.length <2)
@@ -27,6 +29,7 @@ public class ContainerWithMostWater {
 
         // Test Case 1: Standard case
         int[] heights1 = {1,8,6,2,5,4,8,3,7};
+        long[] heights12 = new long[23];
         System.out.println("Test Case 1 Result: " + solver.fetchArea(heights1)); // Expected: 49
 
         // Test Case 2: Edge case with two elements
@@ -52,6 +55,8 @@ public class ContainerWithMostWater {
         // Test Case 7: Array with one element
         int[] heights7 = {1};
         System.out.println("Test Case 7 Result: " + solver.fetchArea(heights7)); // Expected: 0
+
+        System.out.println(Arrays.equals(heights7,heights7));
 
     }
 }
