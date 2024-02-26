@@ -1,4 +1,4 @@
-package org.example.coding.seraching;
+package org.example.coding.searching;
 
 public class BinarySearch {
 
