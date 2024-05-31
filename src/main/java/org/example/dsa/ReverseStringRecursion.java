@@ -15,6 +15,7 @@ public class ReverseStringRecursion {
     rev("yush") returns rev("ush") + 'y' -> "hsu" + 'y' -> "hsuy".
     rev("ayush") returns rev("yush") + 'a' -> "hsuy" + 'a' -> "hsuya".*/
 
+  //Time complexity : O(n^2)
 
     public String rev(String str){
         if(str.isEmpty()) {
